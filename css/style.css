@@ -16,8 +16,17 @@ body{
     grid-template-rows: auto auto auto auto;
 }
 
-.container{
-    gap: 250px;
+.home, .about, .menu, .service, .contact{
+    justify-content: center;
+    margin: 150px;
+}
+
+.home img{
+    margin: 0 0 0 250px;
+}
+
+.about img{
+    margin: 0 250px 0 0;
 }
 
 img{
@@ -93,6 +102,104 @@ button:hover{
     font-size: 50px;
     font-weight: bold;
     letter-spacing: 0.10cm;
+}
+
+.menu, .service{
+    text-align: center;
+}
+
+.cm1, .cm2, .cm3{
+    display: inline-block; 
+    padding: 30px;
+    background-color: #fff;
+    margin: 30px 25px;
+}
+
+.menu i{
+    background-color: #ff702a;
+    padding: 5%;
+    color: white;
+}
+
+.cm1:hover, .cm2:hover, .cm3:hover{
+    transform: scale(1.1);
+}
+
+.menu p{
+    color: #1e1d2b;
+    text-align: center;
+}
+
+.menu span{
+    color: #ff702a;
+}
+
+.menu img, .service img{
+    width: 300px;
+}
+
+.cs1, .cs2, .cs3{
+    display: inline-block; 
+    padding: 50px;
+    margin: 30px 25px;
+}
+
+.contact{
+    grid-template-columns: 1fr;
+}
+
+.contacts{
+    text-align: center;
+    background-color: #fff;
+    margin: 0px 50px;
+    padding: 80px;
+    border: 1px solid #1e1d2b;
+}
+
+.contact h2{
+    color: #1e1d2b;
+}
+
+footer{
+    justify-content: space-around;
+    display: flex;
+
+}
+
+footer div{
+    padding: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+footer h3{
+    color: #fff;
+    position: relative;
+    display: inline;
+    margin: 0 5px;
+}
+
+footer h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 45px;
+    height: 1px; 
+    background-color: #ff702a; 
+}
+
+footer a{
+    margin: 0;
+    text-align: left;
+}
+
+footer i{
+    margin-top: 10px;
+    color: #fff;
+    background-color: #ff702a;
+    border-radius: 100%;
+    padding: 5%;
 }
 
 
