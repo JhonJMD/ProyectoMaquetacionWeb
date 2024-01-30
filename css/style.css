@@ -109,16 +109,20 @@ button:hover{
 }
 
 .cm1, .cm2, .cm3{
+    position: relative;
     display: inline-block; 
     padding: 30px;
-    background-color: #fff;
+    background-color: #ffefe8;
     margin: 30px 25px;
 }
 
-.menu i{
+.carfood{
+    position: absolute;
     background-color: #ff702a;
     padding: 5%;
     color: white;
+    top: 1px; 
+    right: 1px;
 }
 
 .cm1:hover, .cm2:hover, .cm3:hover{
@@ -150,7 +154,7 @@ button:hover{
 
 .contacts{
     text-align: center;
-    background-color: #fff;
+    background-color: #ffefe8;
     margin: 0px 50px;
     padding: 80px;
     border: 1px solid #1e1d2b;
